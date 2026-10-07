@@ -1,0 +1,8 @@
+Phần 1: phân tích lỗi
+- đường dẫn của bạn Nam có khoảng trắng mà không đặt trong ngoặc kép
+- Lệnh 2 cũng sai vì đường dẫn có khoảng trắng
+- Vì 2 dòng trên lỗi nên bạn Nam vẫn đang ở C:\Users\Student, dòng 3 và 4 sẽ tạo src và src-backup nhầm chỗ, không nằm trong Shopee Projects.
+Phần 2: sửa lại
+-mkdir "Shopee Projects"
+-cd "Shopee Projects"
+- dòng 3-4 cơ bản là đúng chỉ cần sửa 2 dòng đầu là có thể chạy
